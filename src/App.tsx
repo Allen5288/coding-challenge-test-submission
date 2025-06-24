@@ -122,7 +122,7 @@ function App() {
                 placeholder="House number"
               />
             </div>
-            <Button type="submit">Find</Button>
+            <Button type="submit" variant="primary">Find</Button>
           </fieldset>
         </form>
         {addresses.length > 0 &&
@@ -159,7 +159,7 @@ function App() {
                   value={lastName}
                 />
               </div>
-              <Button type="submit">Add to addressbook</Button>
+              <Button type="submit" variant="primary">Add to addressbook</Button>
             </fieldset>
           </form>
         )}
