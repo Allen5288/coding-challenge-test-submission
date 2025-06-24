@@ -17,12 +17,12 @@ const Button: FunctionComponent<ButtonProps> = ({
   type = "button",
   variant = "primary",
   loading = false,
-}) => {
-  // Build className with conditional variants
+}) => {  // Build className with conditional variants
   const buttonClassName = [
     $.button,
     variant === 'primary' ? $.primary : '',
-    variant === 'secondary' ? $.secondary : ''
+    variant === 'secondary' ? $.secondary : '',
+    variant === 'clear' ? $.clear : ''
   ].filter(Boolean).join(' ');
 
   return (

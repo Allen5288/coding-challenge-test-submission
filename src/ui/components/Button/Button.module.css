@@ -46,6 +46,20 @@
   border-color: var(--color-brand-secondary-hover);
 }
 
+/* Clear button variant - minimal styling */
+.clear {
+  background-color: var(--color-background);
+  color: var(--color-brand);
+  border: 1px solid var(--color-brand);
+  box-shadow: none;
+}
+
+.clear:hover {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  border-color: var(--color-text-light);
+}
+
 /* Loading spinner styles */
 .spinner {
   display: inline-block;

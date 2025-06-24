@@ -27,11 +27,13 @@ code {
   --color-brand: #413ef7;
   --color-brand-hover: #3935e6;
   --color-brand-secondary: #6c63ff;
-  --color-brand-secondary-hover: #5b52ff;
-  --color-text: #141925;
+  --color-brand-secondary-hover: #5b52ff;  --color-text: #141925;
   --color-text-light: #72787d;
   --color-text-white: #fff;
   --color-text-light-dark: #878b9a;
+  --color-error-background: #fee;
+  --color-error-text: #c53030;
+  --color-error-border: #fed7d7;
   --width-input: 20rem;
   --width-content: 30rem;
 }
